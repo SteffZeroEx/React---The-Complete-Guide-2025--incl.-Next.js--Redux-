@@ -28,6 +28,7 @@ export default function Examples() {
   return (
     <Section title="Beispiele" id="examples">
       <Tabs
+        
         buttons={
           <>
             <TabButton isSelected={selectedTopic === "components"} onClick={() => handleSelect("components")}>
@@ -44,8 +45,8 @@ export default function Examples() {
             </TabButton>
           </>
         }>
-          {tabContent}
-     </Tabs>
+        {tabContent}
+      </Tabs>
     </Section>
   );
 }
