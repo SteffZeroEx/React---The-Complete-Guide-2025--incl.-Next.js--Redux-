@@ -1,7 +1,10 @@
+
 function App() {
+  
+
   return (
-    <h1>Coming soon</h1>
-  );
+    <p>Coming soon</p>
+  )
 }
 
-export default App;
+export default App
