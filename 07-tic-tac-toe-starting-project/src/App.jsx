@@ -1,6 +1,6 @@
 function App() {
   return (
-    <p>Coming soon</p>
+    <h1>Coming soon</h1>
   );
 }
 
