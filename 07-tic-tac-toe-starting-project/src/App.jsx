@@ -11,7 +11,7 @@ function App() {
         </ol>
         <GameBoard/>
       </div>
-      LOG
+      <p id="log">LOG - Coming Soon...</p>
     </main>
   );
 }
